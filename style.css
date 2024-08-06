@@ -1,0 +1,172 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbarScroll {
+    background-color: #333;
+    transition: all 0.3s ease;
+}
+
+.navbarScroll .navbar-brand, 
+.navbarScroll .nav-link {
+    color: #fff;
+}
+
+.navbarScroll .nav-link:hover {
+    color: #f1c40f;
+}
+
+/* Hero section */
+.bgimage {
+    background-image: url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center 30%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.hero-text {
+    color: #fff;
+}
+
+.hero_title {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.hero_desc {
+    font-size: 3rem;
+}
+
+/* About section */
+#about {
+    padding: 60px 0;
+}
+
+.imageAboutPage {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Services section */
+#services {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.servicesText {
+    border: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.servicesIcon {
+    font-size: 3rem;
+    color: #3498db;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.1rem;
+}
+
+/* Portfolio section */
+#portfolio {
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Contact section */
+#contact {
+    padding: 60px 0;
+}
+
+.contactContent {
+    background-color: #f9f9f9;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+/* Footer section */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+#footer p {
+    margin: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .hero_title {
+        font-size: 2rem;
+    }
+
+    .hero_desc {
+        font-size: 1.2rem;
+    }
+}
